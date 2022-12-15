@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.maindiv{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-image: url(./image/bg2.png);
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-size:cover;
+}
+nav{
+    width: 100%;
+    height: 20%;
+    position:fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navdiv{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navdiv a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:ease-in-out 0.1s;
+}
+.navdiv a:hover{
+    height: 3rem;
+    width: 7rem;
+    color: crimson;
+    background-color: white;
+    border-radius: 2rem;
+    font-size: large;
+    font-weight: bolder;
+}
+.navdiv button{
+    width: 160px;
+    height: 40px;
+    background-color: #b7eaaf;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+.navdiv button:hover{
+    background-color:crimson;
+}
+.sgv{
+    position: absolute;
+    bottom: 0;
+}
+.middlediv{
+    width: 60%;
+    height: 70%;
+    align-self: center;
+    position: absolute;
+    top: 20%;
+    background-image:  linear-gradient(113.96deg, #213F36 0%, rgba(33, 63, 54, 0.2) 100%),url(./image/Card.png);
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.middlediv h1{
+    color: #dce7dd;
+    font-family: sans-serif;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-size: 3rem;
+}
+.middlediv p{
+    color:#c5ccca;
+    font-family: sans-serif;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.middlediv span{
+    color: #d2ffcc;
+}
+.middlediv button{
+    width: 160px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    margin-top: 1rem;
+    background-image: linear-gradient(90deg, rgba(127, 202, 33, 0.8) 0%, #105200 100%);
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-left: 2rem;
+}
