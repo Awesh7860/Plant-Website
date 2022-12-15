@@ -30,6 +30,10 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+.navdiv img{
+    width: 40px;
+    height: 40px;
+}
 .navdiv a{
     color: white;
     text-decoration: none;
